@@ -1,0 +1,133 @@
+Notes on Day 1: 
+
+Sets
+-----
+A set is a collection of objects known as elements 
+
+{3,4,5} , {all words in english} - finte sets
+{1,2,3,...} all real numbers <- infinite
+
+the collection of all sets
+A = {1,3,5,...} <- infinte sets
+
+sets -> finte, infinte
+
+Sets are made up of elements 
+
+The relation of "being an element of" is written:
+ a ∈ A <-> a is an element of A
+ a ∉ A <-> a is not an element A 
+ A ∋ a <-> A contains the element 'a' 
+
+A = {all odd integers} 
+
+121 ∈ A 
+200 ∉ A 
+
+N - natural numbers {1,2,3,4,5) zero doesn't exist in this set? 
+Z - Integers {..., -2, -1, 0, 1, ,2 ...} 
+Q = Rational numbers {p/q where p, q are integers, and q != 0} 1/2, 1/4, 1/3, 2/3, -3/4, 3/1, 4/1, 5/1  etc so Z in Q? 
+R = Real numbers 
+C = Complex numbers {a +bi where a + b is real} i is imaginary 
+
+
+cardinality
+--------------
+The cardinality of a finite set is the number of elements it contains. 
+We write  |A| = 5 or #(A) = 5, which means set 'A' has 5 elements
+
+Cardinality of the empty set is zero (0) |∅| = 0
+The cardinality of the set containing the empty set is 1.|{∅}| = 1 
+
+The cardinality of the set: {R, Z} is 2, because the larger set only contains two sets (which are elements) 
+
+
+
+Set builder notation
+--------------------
+{expression | rule satisfied by that expression} 
+{broad shape of an element | rule(s) the element must follow} 
+
+Examples:
+{2n | n is an integer Z } n = {...,-2,-1, 0, 1, 2, 3, ..} 
+
+{2n | n is an integer Z } = {...., -6, -4, -2, 0, 2, 4, 6 ...} 
+
+                          = {n is in Z | n is even }
+or 
+{n ∈ Z | n = 2k for some k ∈ Z }
+
+
+{x ∈ R | x^2 = 2 }  = {-sqrt(2), sqrt(2)} 
+
+{x^2 = 2 | x ∈ R } 
+
+{x ∈ Q | x^2 = 2 } = ∅, no rational number Q multiplies by itself to give 2, since the sqrt of 2 isn't a rational number
+
+{x ∈ Z | |x| < 3 } = {-2, -1, 0, 1, 2} 
+
+{x ∈ R | |x| < 3 } = (-3, 3) this is an infinte set? 
+
+
+cartesian Product
+-----------------
+Given sets A and B, define their cartesian product A x B = {(a,b) | a ∈ A, b ∈ B } 
+A = {v,u} 
+B = {x,y,z} 
+
+A x B = 
+ { (v,x), (v,y), (v,z) 
+ (u,x), (u,y), (u,z) }
+
+|A| = 2 
+|B| = 3 
+
+2 x 3 = 6 
+
+Cardinality of |A x B| = |A||B| = 6 (IF A and B are finite!)
+
+
+
+We say that A is a subset of B if every element of A is an element of B. We write 
+
+A - any set 
+
+The power set of A is the set of all subsets of A, denoted by P(A) 
+
+P(∅) = {∅} 
+P({x}) = {∅, {x}} 
+
+P({a,b}) = {∅, {a}, {b}, {a,b}}  
+
+|P(A)| = 2^|A| 
+
+
+
+
+Exercises: 
+{x in Z | |7x| < 24 }  = {-3, -2, -1, 0, 1, 2, 3 }
+
+{x in R | 7x^2 - x^3 = 12x} x^3 - 7x^2 + 12x = 0  = {0,3,4} 
+                            x(x^2 - 7x + 12) = 0 
+
+                             (x - 3 )(x - 4 ) = 0
+                             x = 3, x = 4, x = 0 (pausible)
+
+P({1,2,3}) = {empty, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3}}  
+
+{x in P(1,2,3) | |x| = 2} = {{1,2}, {1,3}, {2,3}} 
+
+
+
+   
+
+                           
+
+
+
+
+
+
+
+
+
